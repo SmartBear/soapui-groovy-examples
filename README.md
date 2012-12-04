@@ -11,3 +11,4 @@ This is a collection of soapUI projects and Groovy Scripts used to demonstrate t
 ### soapUI API docs
 * [soapUI docs](http://www.soapui.org/apidocs/)
 * [soapUI Pro docs](http://www.soapui.org/apidocs/pro)
+* [UI helper methods](http://www.soapui.org/apidocs/com/eviware/soapui/support/UISupport.html)
