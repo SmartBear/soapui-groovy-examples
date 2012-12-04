@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project activeEnvironment="Default" name="Getting started" resourceRoot="" soapui-version="4.5.1.1-SNAPSHOT" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:testSuite name="TestSuite"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase" searchProperties="true" id="2d18ae0c-265a-4e00-9843-c7b4e0927ee9"><con:settings/><con:testStep type="groovy" name="Hello world"><con:settings/><con:config><script>import com.eviware.soapui.support.UISupport
+
+class Greet {
+    def name
+    
+    Greet(who) { 
+        name = who[0].toUpperCase() + who[1..-1] 
+    }
+  
+    def salute() { 
+        return "Hello $name!" 
+    }
+}
+
+g = new Greet('world')      			
+UISupport.showInfoMessage(g.salute())
+</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:properties/><con:reportParameters/></con:testSuite><con:requirements/><con:properties/><con:wssContainer/><con:databaseConnectionContainer/><con:reporting><con:reportTemplates/><con:xmlTemplates/><con:parameters/></con:reporting><con:sensitiveInformation/></con:soapui-project>
