@@ -1,6 +1,6 @@
 # Running schedule
 
-* How to get started with Groovy?
+* Getting started
 * Get and set properties
 * Event handlers
 * Twitter OAuth
