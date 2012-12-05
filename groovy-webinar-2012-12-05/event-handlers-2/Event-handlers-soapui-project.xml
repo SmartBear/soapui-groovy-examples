@@ -295,7 +295,7 @@
       </web:ConversionRate>
    </soap:Body>
 </soap:Envelope>]]></con:request><con:assertion type="SOAP Response" name="SOAP Response"/><con:credentials><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/CurrencyConvertorSoap/ConversionRateRequest"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:properties/><con:reportParameters/></con:testSuite><con:requirements/><con:properties/><con:wssContainer/><con:databaseConnectionContainer/><con:reporting><con:reportTemplates/><con:xmlTemplates/><con:parameters/></con:reporting><con:eventHandlers type="SubmitListener.afterSubmit" name="SubmitListener.afterSubmit"><con:script>def version = submit.response.responseHeaders['X-AspNet-Version']
-log.info version</con:script></con:eventHandlers><con:eventHandlers type="SubmitListener.beforeSubmit" name="SubmitListener.beforeSubmit"><con:script>import com.eviware.soapui.support.types.StringToStringMap;
+log.info "Header value: $version"</con:script></con:eventHandlers><con:eventHandlers type="SubmitListener.beforeSubmit" name="SubmitListener.beforeSubmit"><con:script>import com.eviware.soapui.support.types.StringToStringMap;
 
 def headers = new StringToStringMap()
 headers.put("MyHeader", "TheValue")
