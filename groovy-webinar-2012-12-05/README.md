@@ -1,7 +1,8 @@
 # Running schedule
 
-* How to get started with Groovy? (10 min)
-* Get and set properties (10 min)
-* Event handlers (10 min)
-* Creating your own Groovy library (10 min)
-* Q&A (30 min)
+* How to get started with Groovy?
+* Get and set properties
+* Event handlers
+* Twitter OAuth
+* Creating your own Groovy library
+* Q&A
