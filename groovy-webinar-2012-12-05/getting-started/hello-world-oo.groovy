@@ -10,5 +10,5 @@ class Greet {
     }
 }
 
-g = new Greet('world')      // create object
-g.salute()                  // output "Hello World!"
+g = new Greet('world')      
+g.salute()                  
