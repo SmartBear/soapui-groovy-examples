@@ -3,6 +3,9 @@ soapUI Groovy examples
 
 This is a collection of soapUI projects and Groovy Scripts used to demonstrate the Groovy scripting capabilities in soapUI
 
+## Tips and tricks
+* Use `log.info <variable>` to get the class of the variable you want to look up in the API documentation. 
+
 ## Resources
 * [The official Groovy site](http://groovy.codehaus.org)
 * [SoapUI scriping tips & tricks](http://www.soapui.org/Scripting-Properties/tips-a-tricks.html)
