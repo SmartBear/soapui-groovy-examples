@@ -4,7 +4,7 @@ soapUI Groovy examples
 This is a collection of soapUI projects and Groovy Scripts used to demonstrate the Groovy scripting capabilities in soapUI
 
 ## Tips and tricks
-* Use `log.info <variable>` to get the class of a variable, such as the `testRunner`. Then you can refer to this class in the soapUI API documentation.
+* Use `log.info <variable>` to get the class of a variable, such as the `testRunner`. Then you can refer to this class in the [soapUI API documentation](https://github.com/SmartBear/soapui-groovy-examples#soapui-api-documentation).
 
 ## Resources
 * [The official Groovy site](http://groovy.codehaus.org)
