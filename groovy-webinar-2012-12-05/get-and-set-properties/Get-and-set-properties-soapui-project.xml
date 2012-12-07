@@ -293,7 +293,7 @@ testCase.setPropertyValue("FromCurrency", "SEK")</script></con:config></con:test
    <soap:Body>
       <web:ConversionRate>
          <web:FromCurrency>${#TestCase#FromCurrency}</web:FromCurrency>
-         <web:ToCurrency>NOK</web:ToCurrency>
+         <web:ToCurrency>USD</web:ToCurrency>
       </web:ConversionRate>
    </soap:Body>
 </soap:Envelope>]]></con:request><con:assertion type="SOAP Fault Assertion" name="Not SOAP Fault"/><con:credentials><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig action="http://www.webserviceX.NET/CurrencyConvertorSoap/ConversionRateRequest" mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="groovy" name="Reset From currency"><con:settings/><con:config><script>def testCase = testRunner.getTestCase()

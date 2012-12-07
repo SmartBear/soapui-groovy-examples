@@ -298,7 +298,7 @@
 log.info "Header value: $version"</con:script></con:eventHandlers><con:eventHandlers type="SubmitListener.beforeSubmit" name="SubmitListener.beforeSubmit"><con:script>import com.eviware.soapui.support.types.StringToStringMap;
 
 def headers = new StringToStringMap()
-headers.put("MyHeader", "TheValue")
+headers.put("MyCoolHeader", "TheCoolValue")
 submit.request.setRequestHeaders(headers)</con:script></con:eventHandlers><con:eventHandlers type="TestSuiteRunListener.beforeTestCase" name="TestSuiteRunListener.beforeTestCase"><con:script>import com.eviware.soapui.support.UISupport;
 
 UISupport.showInfoMessage("Run $testCase.name?")</con:script></con:eventHandlers><con:sensitiveInformation/></con:soapui-project>
