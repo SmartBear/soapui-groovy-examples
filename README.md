@@ -9,6 +9,7 @@ This is a collection of soapUI projects and Groovy Scripts used to demonstrate t
 ## Resources
 * [The official Groovy site](http://groovy.codehaus.org)
 * [SoapUI scriping tips & tricks](http://www.soapui.org/Scripting-Properties/tips-a-tricks.html)
+* [10 Groovy scripts on your finger tips](http://learnsoapui.wordpress.com/2011/07/17/10-groovy-scripts-on-your-finger-tips-soapui/)
 * [soapUI source code](http://github.com/SmartBear/soapui)
 
 ### soapUI API documentation
