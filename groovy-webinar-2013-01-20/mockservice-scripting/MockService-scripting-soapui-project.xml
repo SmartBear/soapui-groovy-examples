@@ -294,7 +294,7 @@
          <web:ToCurrency>EUR</web:ToCurrency>
       </web:ConversionRate>
    </soap:Body>
-</soap:Envelope>]]></con:request><con:assertion type="SOAP Fault Assertion" name="Not SOAP Fault"/><con:assertion type="SOAP Response" name="SOAP Response"/><con:assertion type="GroovyScriptAssertion" name="appId header is 42"><con:configuration><scriptText>def appIdHeader = messageExchange.responseHeaders.get("appId")
+</soap:Envelope>d]]></con:request><con:assertion type="SOAP Fault Assertion" name="Not SOAP Fault"/><con:assertion type="SOAP Response" name="SOAP Response"/><con:assertion type="GroovyScriptAssertion" name="appId header is 42"><con:configuration><scriptText>def appIdHeader = messageExchange.responseHeaders.get("appId")
 if (appIdHeader != null &amp;&amp; !appIdHeader.empty)
 	assert appIdHeader.get(0).contains("42")
 else
